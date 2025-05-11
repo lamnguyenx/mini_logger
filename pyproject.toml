@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "mini_logger"
+name = "py_mini_logger"
 version = "0.1.1"
 description = "Easily run bash commands with boolean conversion utilities"
 authors = ["lamnguyenx <lamfm95@gmail.com>"]
 license = "apache"
 readme = "README.md"
 homepage = "https://github.com/lamnguyenx/mini_logger.git"
+packages = [{ include = "src/mini_logger" }]
 
 [tool.poetry.dependencies]
 python = "^3.7"
