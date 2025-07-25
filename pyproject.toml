@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py_mini_logger"
-version = "0.1.3"
+version = "0.1.4"
 description = "Easily run bash commands with boolean conversion utilities"
 authors = ["lamnguyenx <lamfm95@gmail.com>"]
 license = "apache"

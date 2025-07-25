@@ -10,6 +10,7 @@ from io import StringIO
 
 # technical
 import logging
+import typing as tp
 from booleanify import booleanify
 
 
@@ -57,8 +58,8 @@ class MultiArgLogger(logging.Logger):
 ### FUNCTIONS
 def getLogger(
     name      : str,
-    log_level : int | str | None = None,
-    log_time  : bool | None = None,
+    log_level : tp.Optional[tp.Union[int, str]] = None,
+    log_time  : tp.Optional[bool] = None,
 ) -> MultiArgLogger:
 
     # Register our custom logger class
